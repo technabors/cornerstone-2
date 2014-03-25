@@ -1,0 +1,5 @@
+/* FUNCTIONS.SCSS */
+
+@function em($base, $target) {
+  @return ($target / $base) * 1em;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <script>
+      $(document).ready(function () {
+        $('#main div').each(function () {
+          if(this.className.indexOf('col-') === 0) {
+            this.innerHTML = '<code>' + this.className + '</code>';
+          }
+        });
+      });
+    </script>
+    <style type="text/css">
+      #main .container {
+        margin-top: 2em;
+      }
+      #main .container div {
+        font-size: 0.6em;
+        text-align: center;
+        padding: 1em 0;
+        background: #8ee8fd;
+      }
+    </style>
+  </head>
+  <body>
+    {% include eyebrow.html %}
+    {% include hero.html heading=page.heading subtitle=page.subtitle %}
+    <div id="main">
+      <div class="container">
+        {{ content }}
+      </div>
+      <div class="container">
+        <div class="col-1of2"></div>
+        <div class="col-1of2 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of3"></div>
+        <div class="col-1of3"></div>
+        <div class="col-1of3 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of3"></div>
+        <div class="col-2of3 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-2of3"></div>
+        <div class="col-1of3 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of4"></div>
+        <div class="col-1of4"></div>
+        <div class="col-1of4"></div>
+        <div class="col-1of4 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of4"></div>
+        <div class="col-1of4"></div>
+        <div class="col-2of4 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of4"></div>
+        <div class="col-3of4 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-3of4"></div>
+        <div class="col-1of4 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of4"></div>
+        <div class="col-2of4"></div>
+        <div class="col-1of4 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of5"></div>
+        <div class="col-1of5"></div>
+        <div class="col-1of5"></div>
+        <div class="col-1of5"></div>
+        <div class="col-1of5 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of5"></div>
+        <div class="col-4of5 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of5"></div>
+        <div class="col-1of5"></div>
+        <div class="col-3of5 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of5"></div>
+        <div class="col-1of5"></div>
+        <div class="col-1of5"></div>
+        <div class="col-2of5 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-4of5"></div>
+        <div class="col-1of5 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-2of5"></div>
+        <div class="col-3of5 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-3of5"></div>
+        <div class="col-2of5 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of5"></div>
+        <div class="col-3of5"></div>
+        <div class="col-1of5 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of6"></div>
+        <div class="col-1of6"></div>
+        <div class="col-1of6"></div>
+        <div class="col-1of6"></div>
+        <div class="col-1of6"></div>
+        <div class="col-1of6 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of6"></div>
+        <div class="col-5of6 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-5of6"></div>
+        <div class="col-1of6 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of6"></div>
+        <div class="col-4of6"></div>
+        <div class="col-1of6 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of7"></div>
+        <div class="col-1of7"></div>
+        <div class="col-1of7"></div>
+        <div class="col-1of7"></div>
+        <div class="col-1of7"></div>
+        <div class="col-1of7"></div>
+        <div class="col-1of7 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of7"></div>
+        <div class="col-6of7 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-2of7"></div>
+        <div class="col-5of7 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-3of7"></div>
+        <div class="col-4of7 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-6of7"></div>
+        <div class="col-1of7 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of7"></div>
+        <div class="col-5of7"></div>
+        <div class="col-1of7 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of8"></div>
+        <div class="col-1of8"></div>
+        <div class="col-1of8"></div>
+        <div class="col-1of8"></div>
+        <div class="col-1of8"></div>
+        <div class="col-1of8"></div>
+        <div class="col-1of8"></div>
+        <div class="col-1of8 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of8"></div>
+        <div class="col-7of8 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-7of8"></div>
+        <div class="col-1of8 last"></div>
+      </div>
+      <div class="container">
+        <div class="col-1of8"></div>
+        <div class="col-6of8"></div>
+        <div class="col-1of8 last"></div>
+      </div>
+    </div>
+  </body>
+</html>

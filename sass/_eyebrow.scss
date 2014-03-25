@@ -1,0 +1,64 @@
+/* eyebrow */
+
+$eyebrow-background: #333;
+$eyebrow-color: #fafafa;
+
+.eyebrow {
+  background: $eyebrow-background;
+  color: $eyebrow-color;
+  padding: 0.5em 0;
+
+  a {
+    color: $eyebrow-color;
+
+    &.eyebrow-brand {
+      float: left;
+      margin-right: 1.5em;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.8em;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .eyebrow-nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      font-family: 'Roboto Slab';
+      float: left;
+      line-height: 1em;
+      margin: 0.625em 1.25em 0 0;
+
+      a {
+        font-size: 0.8em;
+        text-transform: uppercase;
+
+        &.btn {
+          margin-top: -0.5em;
+          font-size: 0.7em;
+          color: #fff;
+
+          &.btn-secondary {
+            box-shadow: 0 0 0 1px #aaa inset;
+          }
+        }
+      }
+      
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+    
+    &.eyebrow-nav-right {
+      float: right;
+    }
+  }
+}

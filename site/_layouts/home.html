@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include eyebrow.html %}
+    {% include hero.html heading=page.heading subtitle=page.subtitle %}
+    <div id="main">
+      <div class="container">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

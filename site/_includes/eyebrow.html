@@ -1,0 +1,18 @@
+    <div class="eyebrow">
+      <div class="container">
+        <div class="col-2of3">
+          <a href="{{ site.baseurl }}/" class="eyebrow-brand">{{ site.name }}</a>
+          <ul class="eyebrow-nav">
+            {% for sec in site.data.nav %}
+            <li><a href="{{ site.baseurl }}/docs/{{ sec.docs | first }}/">{{ sec.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="col-1of3 last">
+          <ul class="eyebrow-nav eyebrow-nav-right">
+            <li><a href="#" class="btn btn-secondary">Contact</a></li>
+            <li><a href="#" class="btn btn-primary">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>

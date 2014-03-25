@@ -1,0 +1,41 @@
+{% for sec in site.data.nav %}
+  {% for cat in sec.docs %}
+    {% if page.url contains cat %}
+      {% assign s = sec %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <script>
+      $(document).ready(function () {
+        $('#content h2').each(function () {
+          var id = this.id;
+          var text = this.textContent;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    {% include eyebrow.html %}
+    {% include hero.html heading=s.hero.heading subtitle=s.hero.subtitle %}
+    <div id="main">
+      <div class="container">
+        <div id="side_nav" class="col-1of5">
+          <ul class="tabs-vertical">
+            {% for cat in s.docs %}{% assign cl = '' %}
+            {% if page.url contains cat %}{% assign cl = 'active' %}{% endif %}
+            <li><a href="{{ site.baseurl }}/docs/{{ cat }}/" class="{{ cl }}">{{ cat | replace: '-', ' ' }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div id="content" class="col-4of5 last">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

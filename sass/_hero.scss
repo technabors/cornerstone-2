@@ -1,0 +1,22 @@
+/* HERO.SCSS */
+
+$hero-bg: #8f1abd;
+
+.hero {
+  text-align: center;
+  background: $hero-bg;
+  //background: -webkit-linear-gradient(295deg, darken(adjust-hue($hero-bg, -10%), 5%), lighten(adjust-hue($hero-bg, 5%), 5%));
+  color: #fff;
+  padding: 3.5em 0;
+
+  .hero-heading {
+    margin: 0;
+  }
+  .hero-subtitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+    font-weight: 200;
+    line-height: 1.4em;
+    margin: 0.4em 0;
+  }
+}

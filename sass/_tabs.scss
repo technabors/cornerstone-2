@@ -1,0 +1,70 @@
+/* TABS.SCSS */
+
+.tabs-vertical {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 3em 0;
+  list-style: none;
+  border-right: 1px solid #d3d3d3;
+  
+  > li {
+    line-height: 1.1em;
+    margin: 0;
+
+    > a {
+      display: block;
+      font-size: 0.9em;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-indent: 50em;
+      padding: 0.7em 0;
+      margin-left: -50em;
+
+      &:hover {
+        background: #eee;
+        text-decoration: none;
+      }
+      
+      &.active {
+        background-color: #5d5d5d;
+        color: #fff;
+        
+        &:after {
+          content: ' ';
+          border-left: 0.7em solid #5d5d5d;
+          border-top: 0.7em solid transparent;
+          border-bottom: 0.7em solid transparent;
+          width: 0;
+          height: 0;
+          left: 0.5em;
+          position: relative;
+          float: right;
+        }
+      }
+    }
+    
+    > ul {
+      margin: 0.25em 0;
+      padding: 0;
+      list-style: none;
+      
+      > li {
+        line-height: 1em;
+        margin: 0;
+        
+        > a {
+          display: block;
+          font-size: 0.8em;
+          font-weight: 400;
+          text-transform: uppercase;
+          padding: 0.4em 0 0.4em 1em;
+          color: #222;
+          
+          &.active {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

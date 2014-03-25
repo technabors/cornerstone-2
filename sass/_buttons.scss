@@ -1,0 +1,34 @@
+/* BUTTONS.SCSS */
+
+$btn-secondary-border-color: #1c1c1c;
+
+.btn {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0.1em;
+  
+  &.btn-primary {
+    color: #fff;
+    padding: 0.5em 1.5em;
+    background: $link-color;
+    
+    &:hover {
+      text-decoration: none;
+      background: lighten($link-color, 3%);
+    }
+  }
+  
+  &.btn-secondary {
+    color: $link-color;
+    padding: 0.5em 1.5em;
+    box-shadow: 0 0 0 1px $btn-secondary-border-color inset;
+    
+    &:hover {
+      text-decoration: none;
+      box-shadow: 0 0 0 2px $btn-secondary-border-color inset;
+    }
+  }
+}

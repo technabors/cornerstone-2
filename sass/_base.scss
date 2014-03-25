@@ -1,0 +1,62 @@
+/* BASE.SCSS */
+
+$base-size: 17px;
+
+$h1-size: 55px;
+$h2-size: 28px;
+$h3-size: 21px;
+
+$link-color: #c40022;
+$accent-color: #0dafcc;
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: $base-size;
+  margin: 0;
+}
+h1 {
+  font-size: em($base-size, $h1-size);
+  font-weight: 300;
+  letter-spacing: -0.0333em;
+  line-height: 1.1em;
+}
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: em($base-size, $h2-size);
+  font-weight: 400;
+  line-height: 1.15em;
+  margin: 0 0 0.25em;
+}
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: em($base-size, $h3-size);
+  font-weight: 400;
+  color: $accent-color;
+  line-height: 1.1em;
+  margin: 0 0 0.25em;
+}
+p {
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0 0 2em;
+}
+ul {
+  margin: 0 0 2em;
+  
+  li {
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+  }
+}
+strong {
+  font-weight: 400;
+}
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
