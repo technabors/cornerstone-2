@@ -1,0 +1,4 @@
+---
+layout: home
+heading: Cornerstone
+---
