@@ -15,9 +15,9 @@ namespace :sass do
   end
 end
 
-namespace :jekyll do
+namespace :site do
   desc "Serve Jekyll site"
   task :serve do
-    sh 'bundle exec jekyll serve --watch --source site --destination site/_site --config site/_config.dev.yml'
+    sh 'bundle exec jekyll serve --watch --source ./site --destination ./site/_site --baseurl ""'
   end
 end
