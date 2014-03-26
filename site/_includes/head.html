@@ -3,5 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" href="{{ site.baseurl }}/img/favicon-16x16.png" sizes="16x16" type="image/png">
     <link rel="icon" href="{{ site.baseurl }}/img/favicon-32x32.png" sizes="32x32" type="image/png">
+    {% if site.version %}
+    <link rel="stylesheet" href="http://632963c32a968e946ade-6a1f0be81bdf28a63f5fcf21842b6ecd.r29.cf1.rackcdn.com/cornerstone-{{ site.versiom }}.min.css">
+    {% else %}
     <link rel="stylesheet" href="{{ site.baseurl }}/css/cornerstone.css">
+    {% endif %}
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
