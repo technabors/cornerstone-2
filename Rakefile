@@ -20,4 +20,9 @@ namespace :site do
   task :serve do
     sh 'bundle exec jekyll serve --watch --source ./site --destination ./site/_site --baseurl ""'
   end
+  
+  desc "Deploy Jekyll site to gh-pages branch"
+  task :deploy do
+    sh "git subtree push --prefix site origin gh-pages"
+  end
 end
