@@ -120,3 +120,80 @@
 	background-color:#FFFFFF;
 }
 
+.roboto {
+	font-family: 'Roboto Slab', serif;
+}
+
+.source-sans {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.font-preview {
+	font-size: 1.23529em;
+    font-style:normal;
+}
+
+.font-navigation {
+	font-family: 'roboto semibold'
+}
+
+.primary-button {
+	width: 198px;
+	height: 44px;
+
+	background-color: #C40022;
+}
+
+.primary-button p {
+	color: #FFFFFF;
+	font-size: 14pt;
+	text-align: center;
+	padding: 8px;
+}
+
+.primary-button:hover{
+	background-color: #DD2233;
+}
+
+.secondary-button {
+	width: 154px;
+	height: 36px;
+	border: 1px solid #333;
+	background-color: #FFFFFF;
+}
+
+.secondary-button p {
+	color: #C40022;
+	font-size: 14pt;
+	text-align: center;
+	padding: 4px 4px 4px 4px;
+}
+
+.secondary-button:hover{
+	border: 2px solid #333;
+}
+
+.dropdown-button {
+	width: 248px;
+	height: 43px;
+	background-color: #444444;
+}
+
+.dropdown-button p {
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+}
+
+.dropdown-button ul {
+	display: none;
+}
+
+.dividing-bar {
+	background-color: #808080;
+	height: 1px;
+	width: 100%;
+}
+
