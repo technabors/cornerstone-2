@@ -16,8 +16,6 @@ Required Elements
 
 ##TO_DO Input Pattern / Element Name
 
-###Description
-
 Here is where to include a description.
 
 ###When to Use
