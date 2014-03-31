@@ -18,7 +18,7 @@ end
 namespace :site do
   desc "Serve Jekyll site"
   task :serve do
-    sh 'bundle exec jekyll serve --watch --source ./site --destination ./site/_site --baseurl ""'
+    sh 'bundle exec jekyll serve --watch --source ./site --destination ./site/_site'
   end
   
   desc "Deploy Jekyll site to gh-pages branch"
