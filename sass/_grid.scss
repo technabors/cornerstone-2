@@ -21,7 +21,7 @@ $grids: (2: 4, 3: 4, 4: 4, 5: 4, 6: 2, 7: 1.5, 8: 1);
   clear: right;
 }
 
-.col {
+%col {
   display: block;
   margin-bottom: 0px;
   float: left;
@@ -30,15 +30,15 @@ $grids: (2: 4, 3: 4, 4: 4, 5: 4, 6: 2, 7: 1.5, 8: 1);
 }
 
 @each $cols, $gutter in $grids {
-  .col-#{$cols} {
-    @extend .col;
+  %col-#{$cols} {
+    @extend %col;
     margin-right: $gutter * 1%;
   }
   
   @for $i from 1 to $cols {
     $w: (100 - $gutter * ($cols - 1)) / $cols;
     .col-#{$i}of#{$cols} {
-      @extend .col-#{$cols};
+      @extend %col-#{$cols};
       width: (($i * $w) + (($i - 1) * $gutter)) * 1%;
     }
   }
