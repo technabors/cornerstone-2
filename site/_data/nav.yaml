@@ -19,7 +19,7 @@
 - title: Patterns
   hero:
     heading: Pattern Library
-    subtitle: Nullam id dolor id nibh ultricies vehicula ut id elit.
+    subtitle: User Interface Patterns for every rackspace.com developer.
   docs:
     - buttons
     - feedback
