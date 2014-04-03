@@ -4,7 +4,7 @@ Welcome to Cornerstone, the definitive resource for brand, content, visual, and 
 
 With that in mind, this project contains a documentation website that offers detail about the practices that should be followed, as well as the source code for a CSS framework that can be easily included in any web-based project.
 
-It should be noted that Cornerstone is not meant to be a one-stop shop for creating control panels or highly interactive web projects (try [Canon](http://canon.rackspace.com/) for that). Instead, it's meant to serve as a foundation, helping to enforce best practices and encourage consistency.
+It should be noted that Cornerstone is not meant to be a one-stop shop for creating control panels or highly interactive web projects. Instead, it's meant to serve as a foundation, helping to enforce best practices and encourage consistency.
 
 ## Getting started
 
