@@ -1,5 +1,7 @@
 /* COLORS.SCSS */
 
+$default_color: #77818B;
+
 $root_colors: (
   red:    #c40022,
   orange: #ff9911,
@@ -7,6 +9,5 @@ $root_colors: (
   green:  #66CC44,
   teal:   #00ccee,
   blue:   #3399ee,
-  purple: #9966ee,
-  gray:   #77818B
+  purple: #9966ee
 );

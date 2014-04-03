@@ -1,10 +1,14 @@
 /* HERO.SCSS */
 
-$hero-bg: #8f1abd;
+@mixin hero-background($c) {
+  background: $c;
+  background: -webkit-linear-gradient(295deg, darken(adjust-hue($c, -5%), 3%), lighten(adjust-hue($c, 5%), 3%));
+}
 
 .hero {
   text-align: center;
   color: #fff;
+  @include hero-background($default_color);
   padding: 3.5em 0;
 
   .hero-heading {
@@ -22,11 +26,7 @@ $hero-bg: #8f1abd;
 @each $name, $color in $root_colors {
   .#{$name} {
     .hero {
-      background: $color;
-      
-      .hero-heading {
-        //@if $color < #aaa { color: #000; }
-      }
+      @include hero-background($color);
     }
   }
 }
