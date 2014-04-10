@@ -1,5 +1,5 @@
 /* FUNCTIONS.SCSS */
 
-@function em($base, $target) {
-  @return ($target / $base) * 1em;
+@function get-color($color, $tone: 'root') {
+  @return map-get(map-get($palette, $color), $tone);
 }

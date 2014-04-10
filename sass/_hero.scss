@@ -1,21 +1,16 @@
 /* HERO.SCSS */
 
-@mixin hero-background($c) {
-  background: $c;
-  background: -webkit-linear-gradient(295deg, darken(adjust-hue($c, -5%), 3%), lighten(adjust-hue($c, 5%), 3%));
-}
-
 .hero {
   text-align: center;
-  color: #fff;
-  @include hero-background($default_color);
+  color: $hero-text-color;
+  background-color: get-color(gray);
   padding: 3.5em 0;
 
   .hero-heading {
     margin: 0;
   }
   .hero-subtitle {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: $font-family-sans-serif;
     font-size: 1.2em;
     font-weight: 200;
     line-height: 1.4em;
@@ -23,10 +18,10 @@
   }
 }
 
-@each $name, $color in $root_colors {
+@each $name, $color in $palette {
   .#{$name} {
     .hero {
-      @include hero-background($color);
+      background-color: get-color($name, root);
     }
   }
 }
