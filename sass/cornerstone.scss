@@ -1,25 +1,20 @@
 /* CORNERSTONE */
 
-/* fonts */
-@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700');
-@import url('http://fonts.googleapis.com/css?family=Roboto+Slab:300,400');
-
-/* mixins and functions */
+/* initalize */
 @import "mixins";
 @import "functions";
+@import "variables";
 
 /* base */
-@import "colors";
 @import "base";
+@import "type";
 
-/* grid */
+/* structure */
 @import "grid";
 @import "layout";
 
 /* modules */
 @import "eyebrow";
 @import "hero";
-
-/* themes */
 @import "buttons";
 @import "tabs";
