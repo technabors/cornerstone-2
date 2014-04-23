@@ -30,6 +30,8 @@ Site visitors rarely read web pages word for word. Instead, they scan the page l
 Primary Button displayed on a Cloud Product page
 <img style="width:760px; border: solid 1px black;" src="http://e6e61b233bcecd895fdb-74f5ac90bad95964d53ac3322f7d0dec.r76.cf1.rackcdn.com/get_started.png">
 
+___
+
 ##Secondary Buttons 
 
 The site visitor is not ready to perform the primary action on the page and is looking for additional information in their journey. 
@@ -54,6 +56,8 @@ Secondary buttons give a page greater interactivity allowing for additional conv
 
 <img style="width:760px; border: solid 1px black" src="http://e6e61b233bcecd895fdb-74f5ac90bad95964d53ac3322f7d0dec.r76.cf1.rackcdn.com/learn_more.png">
 
+___
+
 ##Chat Button
 
 Site visitors may need to reach out for quick answers to questions but may enjoy the anonymity of being able to ask the questions without being identified. Other times they may need information but are busy performing other tasks and cannot break away for a phone call.
@@ -73,6 +77,8 @@ Chat buttons provide quick access for our site visitors to ask questions specifi
 ###Example
 
 <img style="width:760px; border: solid 1px black" src="http://e6e61b233bcecd895fdb-74f5ac90bad95964d53ac3322f7d0dec.r76.cf1.rackcdn.com/chat_button.png">
+
+___
 
 ##Play Button
 
@@ -97,6 +103,8 @@ There are seven established learning styles and each of our site visitors has th
 ###Example
 
 <img style="width:760px; border: solid 1px black" src="http://e6e61b233bcecd895fdb-74f5ac90bad95964d53ac3322f7d0dec.r76.cf1.rackcdn.com/play_button.png">
+
+___
 
 ##Social Media Links
 
