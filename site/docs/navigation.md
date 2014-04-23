@@ -25,6 +25,8 @@ Eyebrow for rackspace.com properties
 
 <img style="width:760px; border: solid 1px black;" src="http://e6e61b233bcecd895fdb-74f5ac90bad95964d53ac3322f7d0dec.r76.cf1.rackcdn.com/eyebrow.png">
 
+___
+
 ##Global Navigation
 
 The site visitor needs to quickly and easily path to a given section of a web site. We use the global navigation in conjunction with the hero banner as a general way finding device to assist in our site visitors pathing throughout the site.
@@ -40,6 +42,14 @@ Global navigation is the second element on the website and is placed directly be
 ###Design Rationale
 
 Consistent global navigation allows customers to safely explore our product offerings. By presenting a consistent navigation element at the top of the screen a customer is able to delve deeper into the task they want to accomplish. As they move through various product screens they are provided a visual anchor. This is especially important when dealing with the technical information displayed on our screen as it gives them a way to navigate back to a friendly page if they find themselves in uncharted territories
+
+###Example
+
+Global nav for rackspace.com
+
+<img style="width:760px; border: solid 1px black;" src="http://e6e61b233bcecd895fdb-74f5ac90bad95964d53ac3322f7d0dec.r76.cf1.rackcdn.com/global_nav.png">
+
+___
 
 ##Hamburger
 
@@ -67,6 +77,8 @@ Hamburger element expanded
 
 <img style="border: solid 1px black;" src="http://e6e61b233bcecd895fdb-74f5ac90bad95964d53ac3322f7d0dec.r76.cf1.rackcdn.com/hamburger_expanded.png">
 
+___
+
 ##Item Pagination
 
 The site visitor is accessing a large set of data that cannot be displayed on a single page.
@@ -90,6 +102,8 @@ Pagination segments the amount of data provided to a site visitor. By providing 
 ###Example
 
 <img src="http://e6e61b233bcecd895fdb-74f5ac90bad95964d53ac3322f7d0dec.r76.cf1.rackcdn.com/pagination.png">
+
+___
 
 ##Main Footer
 
@@ -117,6 +131,7 @@ Footer from rackspace.com
 
 <img style="width:760px; border: solid 1px black;" src="http://e6e61b233bcecd895fdb-74f5ac90bad95964d53ac3322f7d0dec.r76.cf1.rackcdn.com/footer.png">
 
+___
 
 ##Navigation Drop Down
 
