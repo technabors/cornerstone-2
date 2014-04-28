@@ -25,11 +25,13 @@
     subtitle: Interaction design patterns for Rackspace websites
   docs:
     - buttons
+    - feedback
     - navigation
     - organization
-    - windows
-    - user-inputs
     - search
+    - user-inputs
+    - windows
+
 
 - title: Visual
   color: green
